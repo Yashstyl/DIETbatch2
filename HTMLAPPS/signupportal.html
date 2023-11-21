@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sign-Up Forum </title>
+    </head>
+    <style>
+        .tab{
+            tab-size: 3;
+        }
+    </style>
+    <body>
+        <center>
+        <h1> <b> Please signup here!!! </b></h1>
+        <label> Enter username:</label>
+        <input type="text">
+        <br>
+        <div>
+            Enter Username: <input type="text" name="Username" required>
+        </div>
+        <br>
+        <div>
+            Enter Password: <input type="text" name="Password" required>
+        </div>
+        <br>
+        <div>
+            Confirm Password: <input type="text" name="confirm" required>
+        </div>
+        <br>
+        <div>
+            Select Gender: 
+            <ul type="circle"> <li> Male </li> <li> Female </li> </ul>
+        </div>
+        <br>
+        <div>
+            Enter Mobile number: <input type="int" name="mobile" required>
+        </div>
+        <br>
+        <div>
+            Enter DOB: <input type="date" name="date" required>
+        </div>
+        <br>
+        <div>
+            Enter Address: <input type="text" name="address" required>
+        </div>
+        <br>
+        <div> Select Qualification: <input type="select" required>
+            <select name="qualification" id="qual">
+                <option value="B.Tech"> BTech </option>
+                <option value="B.Com"> BCom </option>
+                <option value="B.E"> BE </option>
+                <option value="Diploma"> diploma polytechnic </option>
+                <option value="X Standard"> 10<sup>th</sup> passed </option>
+            </select>
+        </div>
+        <br>
+        <div> Choose your Skills: <input type="select" required>
+            <select name="chooes your skills">
+                <option value="java"> Java </option>
+                <option value="c"> C </option>
+                <option value="r"> R </option>
+                <option value="python"> Python </option>
+            </select>
+        </div>
+        <br>
+        <div> Preferred Shift: 
+            <form action="/action_page.php">
+                <input type="checkbox" id="day_shift" name="day_shift" value="day_shift">
+                <label for="day_shift"> Day Shift </label>
+                <pre class="tab"> <input type="checkbox" id="night_shift" name="night_shift" value="night_shift"> </pre>
+                <label for="day_shift"> Night Shift </label>
+            </form>
+        </div>
+        <br>
+        <div> Upload your Resume: <input type="button"
+            alt="no file choosen">
+            <button> Choose file </button>
+        </div>
+        </center>
+    </body>
+</html>
